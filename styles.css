@@ -1,0 +1,439 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --gradient: linear-gradient(135deg,#f9c8bf , #f87c61 ,#ab26f8 ,#d75ef6);
+}
+body{
+    
+    padding:0 ;
+    margin: 0;
+}
+.group3{
+    background-color: #F8F8F8;
+    padding: 50px;
+    width: 100%;
+}
+.course-grid{
+    display: grid;
+    grid-template-columns: 100%;
+    place-items: center;
+    gap: 30px;
+}
+
+.course-flex{
+    display:flex;
+   justify-content:space-between;
+   align-items: center;
+   gap: 93px;
+   padding: 40px;
+   width: 100%;
+   /* height: 440px;P */
+border-radius: 20px;
+}
+.course-flex:nth-of-type(1){
+    background-color: #fef7e0;
+}
+.course-flex:nth-of-type(2){
+    background-color:  #EDEFFF;
+}
+.course-flex:nth-of-type(3){
+    background-color:  #F6ECFF;
+}
+.course-content{
+    width: 33%;
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-direction: column;
+}
+.course-content h3{
+    color: #202124;
+font-family:Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.72px;
+margin: 0;
+}
+.course-content p{
+    color: #1E1E1E;
+    font-family:Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.team-btn,
+.course-content button{
+    border-radius: 7.974px;
+background: #202020;
+padding: 10px 17px;
+color: #ffffff;
+border: 0;
+}
+.course-img {
+ width: 55%;
+ display: flex;
+ justify-content: flex-end;
+
+}
+.right{
+ width: 55%;
+ display: flex;
+ justify-content: flex-start;
+
+}
+.course-img img{
+   width: 90%;
+   height: 360px;
+   /* object-fit: contain; */
+}
+.team-img{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5px;
+    width: 500px;
+    
+}
+.team-img-flex{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+    
+}
+.team-img-flex img{
+   width: 80px;
+   height: 80px;
+    
+}
+.team-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #FFFAEB;
+    border-radius: 23px;
+    margin: 50px 0;
+    padding: 50px;
+    align-items: center;
+}
+.team-content {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    width: 27%;
+    align-items: flex-start;
+}
+.team-content h3{
+    color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+}
+.team-content p{
+    color: #000;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+.app{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+
+gap: 42px;
+}
+
+.app >div p{
+    color: #2D312F;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+}
+.app >div h2{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.42px;
+margin: 0 0 8px;
+}
+.green-text{
+    color: #59C878;
+}
+.app-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    gap: 22px;
+    /* align-items: flex-start;
+  justify-items: flex-start; */
+  
+}
+.app-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 23px;
+    background-color: #fff;
+    justify-content: center;
+align-items: flex-start;
+gap: 18.777px;
+flex-shrink: 0;
+border-radius: 23px;
+width: 399px;
+}
+.app-content{
+   display: flex;
+   gap: 18px;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+  /* background-color: #f87c61; */
+}
+.app-content div:nth-of-type(2){
+    width: 266.731px;
+   
+}
+.app-content p:nth-of-type(1){
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.165px; 
+    margin: 0;
+}
+.app-content p:nth-of-type(2){
+    color: #000;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23.471px; 
+margin: 0;
+}
+.app-img{
+    width: 361.447px;
+height: 230.012px;
+border-radius: 14.082px;
+}
+@media(max-width:1100px){
+    /* .app-grid{
+        grid-template-columns: 399px 399px;
+     justify-items: center;
+     align-items: center;
+    } */
+    .course-flex{
+        display:flex;
+        flex-direction: row;
+       /* justify-content:space-between; */
+       /* align-items: center; */
+       gap: 20px;
+       padding: 30px 20px;
+       width: 100%;
+       /* height: 440px;P */
+    border-radius: 20px;
+    }
+    .course-content{
+        width: 90%;
+        
+    }
+    .course-img {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+       
+       }
+       .course-img img{
+        width: 100%;
+        height: 360px;
+        /* object-fit: contain; */
+     }
+     .team-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color:  #FFFAEB;
+        border-radius: 23px;
+        margin: 50px auto;
+        padding: 30px;
+        align-items: center;
+        gap: 20px;
+    }
+    .team-content {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 14px;
+        width: 90%;
+        /* align-items: flex-start; */
+    }
+    .team-img{
+        /* background-color:transparent;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5px; */
+        width: 90%;
+        
+    }
+    .team-img-flex img{
+        width: 60px;
+        height: 60px;
+         
+     }
+}
+@media(max-width:819px){
+    /* .app-grid{
+        grid-template-columns: 399px ;
+     justify-items: center;
+     align-items: center;
+    } */
+    .course-flex{
+        display:flex;
+        flex-direction: column;
+       /* justify-content:space-between; */
+       /* align-items: center; */
+       gap: 23px;
+       padding: 30px 20px;
+       width: 100%;
+       /* height: 440px;P */
+    border-radius: 20px;
+    }
+    .course-content{
+        width: 90%;
+        
+    }
+    .course-img {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+       
+       }
+       .course-img img{
+        width: 100%;
+        height: 360px;
+        /* object-fit: contain; */
+     }
+     .team-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 23px;
+        margin: 50px 0;
+        padding: 30px;
+        align-items: center;
+        gap: 40px;
+    }
+    .team-content {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 14px;
+        width: 100%;
+       
+        align-items: flex-start;
+    }
+   
+    .team-img{
+        /* background-color:transparent;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5px; */
+        align-items: center;
+        width: 100%;
+        
+    }
+    .team-img-flex img{
+        width: 80px;
+        height: 80px;
+         
+     }
+    
+}
+@media(max-width:600px){
+    .course-content h3{
+    font-size: 28px;
+    
+    }
+    .course-content p{
+        font-size: 14px;
+        line-height: 20px; 
+    }
+    .course-img {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+       
+       }
+       .course-img img{
+        width: 100%;
+        height: 260px;
+        /* object-fit: contain; */
+     }
+     .team-img-flex img{
+        width: 50px;
+        height: 50px;
+         
+     }
+    
+}
+@media(max-width:500px){
+    .app-flex{
+        padding: 13px;
+    width:90%;
+    align-items: center;
+    }
+    .group3{
+        padding: 10px;
+    }
+    .app-content div:nth-of-type(2){
+        width: 100%;
+       
+    }
+    .app-img{
+       width: 100%; 
+    
+    }
+    .app-img img{
+        width: 100%;
+        /* width: 361.447px; */
+    height: 230.012px;
+    border-radius: 14.082px;
+    }
+    .app-content{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+       /* background-color: #f87c61; */
+     }
+
+}
+@media(max-width:350px){
+   
+    .team-img-flex img{
+        width: 40px;
+        height: 40px;
+         
+     }
+}
